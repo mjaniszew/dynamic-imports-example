@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-imports-example",
+  "version": "1.0.0",
+  "description": "Examples for ES6 dynamic imports with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjaniszew/dynamic-imports-example.git"
+  },
+  "author": "Michal Janiszewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjaniszew/dynamic-imports-example/issues"
+  },
+  "homepage": "https://github.com/mjaniszew/dynamic-imports-example#readme"
+}
