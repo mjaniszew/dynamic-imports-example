@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ES6 Dynamic Imports!!!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+  <div id="staticImportSingle">
+    <button class="importButton">
+      Test static import
+    </button>
+    <span class="notify">Unloaded</span>
+  </div>
+  <div id="dynamicImportSingle">
+    <button class="importButton">
+      Test single dynamic import
+    </button>
+    <span class="notify">Unloaded</span>
+  </div>
+  <div>
+    <p>Those are two modules bundled in same bundle</p>
+  </div>
+  <div id="dynamicImportBundle1">
+    <button class="importButton">
+      Import first dynamic module
+    </button>
+    <span class="notify">Unloaded</span>
+  </div>
+  <div id="dynamicImportBundle2">
+    <button class="importButton">
+      Import second dynamic module
+    </button>
+    <span class="notify">Unloaded</span>
+  </div>
+  <p>Importing either first or second module imports whole bundle (specified by webpackChunkName) despite the fact that those are dynamic imports</p>
+</body>
+
+</html>

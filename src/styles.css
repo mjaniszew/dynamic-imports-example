@@ -1,0 +1,13 @@
+.importButton {
+    margin: 12px;
+    padding: 6px;
+    width: 360px;
+}
+
+.notify {
+    color: red;
+}
+
+.notify.loaded {
+    color: green;
+}
